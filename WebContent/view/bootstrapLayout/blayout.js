@@ -1,0 +1,7 @@
+/**
+ * blayout.js 
+ */
+
+$(function(){
+	
+});

@@ -1,0 +1,165 @@
+@CHARSET "UTF-8";
+/*  表格插件封装CSS  @author：zhangYun  Time:2015-08-10 */
+
+
+.title{
+    height: 100px;
+	background-color: yellow;
+}
+.main{
+	height: 600px;
+	background-color: #ffffff;
+}
+.left{
+	height: 600px;
+	background-color: #ff80ff;
+}
+.right{
+	height: 600px;
+	background-color: #d9ffd9;
+}
+
+
+*{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*查询区CSS样式*/
+.wolf-dataGrid .queryArea{
+	
+	margin-top: 5px;
+	padding-top:5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #67dc3a;
+	background-color: #b8e9b4;
+	border-bottom-width: 0;
+}
+
+/*查询区spanCSS样式*/
+.wolf-dataGrid .queryArea .queryCondition span{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	font-style: normal;
+	font-weight:bold;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom:  10px;
+	
+}
+
+/*查询区inputCSS样式*/
+.wolf-dataGrid .queryArea .queryCondition input[type="text"]{
+     height: 16px;
+     margin-top: 5px;
+}
+
+/*查询区buttonCSS样式*/
+.wolf-dataGrid .queryArea .queryButton{
+	padding-top: 5px;
+}
+
+/*查询区inputCSS样式*/
+.wolf-dataGrid .queryArea .queryButton input[type="button"]{
+	 margin:0;
+	 padding:0;
+	 height:30px;
+     width: 100px;
+     background-color: #008000;
+     font-weight: bold;
+     color: white;
+     border-color: #008040;
+     border-style: solid;
+     border-width: 2px;
+     margin-bottom: 5px;
+     border-radius: 3px;
+     -webkit-border-radius: 3px;
+     -moz-border-radius:3px
+}
+
+/*功能区CSS样式*/
+.wolf-dataGrid .fnArea{
+	padding-top:5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #67dc3a;
+	background-color: #88cc94;
+	border-top-width: 0;
+	border-bottom-width: 0;
+}
+
+/*查询区inputCSS样式*/
+.wolf-dataGrid  .fnArea input[type="button"]{
+	 margin:0;
+	 padding:0;
+	 height:30px;
+     width: 60px;
+     background-color: #008080;
+     font-weight: bold;
+     color: white;
+     border-color: #008040;
+     border-style: solid;
+     border-width: 2px;
+     margin-bottom: 5px;
+     border-radius: 3px;
+     -webkit-border-radius: 3px;
+     -moz-border-radius:3px
+}
+
+/*功能区CSS样式*/
+.wolf-dataGrid .dataArea{
+	padding-top:5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #67dc3a;
+	background-color: #d8ebeb;
+	border-top-width: 0;
+	border-bottom-width: 0;
+	height: 450px;
+}
+
+/*表格分页区CSS样式*/
+.wolf-dataGrid .pageArea{
+	padding-top:5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #67dc3a;
+	background-color: #d8ebeb;
+	border-top-width: 0;
+}
+
+/*表格分页区CSS样式*/
+.wolf-dataGrid .pageArea ul li{
+	font-weight:bold;
+	color:#130e47;
+	list-style-type: none;
+	float: left;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	cursor: pointer;
+    border-style: solid;
+	border-width: 2px;
+	border-color: #008000;
+	background-color: #008000;
+	color: #ffffff;
+	border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius:3px
+}
+
+/*表格分页区CSS样式*/
+.wolf-dataGrid .pageArea ul li input{
+    width: 20px;
+    height: 10px;
+    margin: 0;
+    vertical-align: middle;
+}
+
+
+

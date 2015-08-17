@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+/*tableOp CSS */
+
+/*query CSS*/
+#table1 .tableOp_query{
+	border-width: thin;
+	border-color: blue;
+	border-style: solid;
+	height: 50px;
+	
+}
+
+/*function CSS*/
+#table1 .tableOp_function{
+	border-width: thin;
+	border-color: #80ff00;
+	border-style: solid;
+	height: 50px;
+}
+
+/*data CSS*/
+#table1 .tableOp_data{
+	border-width: thin;
+	border-color: #ff00ff;
+	border-style: solid;
+	height: 500px;
+}
+
+/*page CSS*/
+#table1 .tableOp_page{
+	border-width: thin;
+	border-color: #0000ff;
+	border-style: solid;
+	height: 30px;
+}
+

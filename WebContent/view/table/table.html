@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>表格</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- 开启响应式布局 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="../comm/plugs/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="../comm/plugs/bootstrap/css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+    <link href="table.css" rel="stylesheet" media="screen">
+    <script src="../comm/js/jquery-1.8.3.js"></script>
+    <script src="../comm/plugs/bootstrap/js/bootstrap.js"></script>
+    <script src="table.js"></script>
+  </head>
+  <body>
+    <!-- 页面主布局 start -->
+	<div class="container-fluid">
+	
+	  <!-- 导航栏  start-->
+	  <div class="row-fluid title">
+	    <div class="span12">
+	                主页导航栏
+	    </div>
+	  </div>
+	  <!-- 导航栏  end-->
+	  
+	  <!-- 菜单栏与数据操作区  start -->
+	  <div class="row-fluid main">
+	  
+	    <!-- 左边菜单栏 start -->
+	    <div class="span2 left">
+	  	   左边菜单栏
+	    </div>
+	    <!-- 左边菜单栏 end -->
+	    
+	    <!-- 右边数据操作区  start -->
+	    <div class="span10 right wolf-dataGrid">
+	    	<!--  <div class="container">-->
+	    	
+	    	
+	    	    <!-- 表格查询区 start -->
+	    		<div class="row-fluid queryArea">
+	    			<div class="row queryCondition">
+	    			   <div class="span3 offset1">
+	    			      <span>姓名:</span><input type="text" />
+	    			   </div>
+	    			   <div class="span3 ">
+	    			      <span>年龄:</span><input type="text" /> 
+	    			   </div>
+	    			   <div class="span3 ">
+	    			      <span>身高:</span><input type="text" />
+	    			   </div>
+	    			</div>
+	    			<div class="row-fluid queryButton">
+	    			    <div class="span2 offset4"><input  type="button" value="查询" /></div>
+	    			    <div class="span2 "><input  type="button" value="重置" /></div>
+	    			</div>
+	    		</div>
+	    		<!-- 表格查询区 end -->
+	    		
+	    		
+	    		
+	    		<!-- 表格功能区 start -->
+	    	    <div class="row-fluid fnArea">
+	    			<div class="span1 offset1"><input type="button" value="导出" /></div>
+	    			<div class="span1"><input type="button" value="新增" /></div>
+	    		</div>
+	    		<!-- 表格功能区 end -->
+	    		
+	    		
+	    		
+	    		
+	    		<!-- 表格数据展示区 start -->
+	    	    <div class="row-fluid dataArea">
+	    			<div class="span12">
+	    			       <div type="seq">序号</div>
+	    			       <div>姓名</div>
+	    			       <div>年龄</div>
+	    			       <div>性别</div>
+	    			       <div>出生日期</div>
+	    			       <div>家庭住址</div>
+	    			       <div>出生地址</div>
+	    			       <div>户籍</div>
+	    			</div>
+	    		</div>
+	    		<!-- 表格数据展示区 end -->
+	    		
+	    		
+	    		
+	    		<!-- 表格分页区  start -->
+	    	    <div class="row-fluid pageArea">
+	    			<div class="span5 offset7">
+		    			<ul>
+		    			   <li onclick="wolf_page('first')">首页</li>
+		    			   <li onclick="wolf_page('previous')">上一页</li>
+		    			   <li>第<span class="__manyPage"></span>页</li>
+		    			   <li onclick="wolf_page('next')">下一页</li>
+		    			   <li onclick="wolf_page('last')">尾页</li>
+		    			   <li><input class="__skipPage"  type="text"/></li>
+		    			   <li onclick="wolf_page('assign')">跳转</li>
+		    			   <li>共<span  class="__totalPage"></span>页</li>
+		    			</ul>
+	    			</div>
+	    		</div>
+	    		<!-- 表格分页区   end -->
+	    		
+	    		
+
+	    		<!-- 表格弹出框区  start -->
+	    	    <div class="row-fluid windowView">
+	    			<div class="span12"></div>
+	    		</div>
+	    		<!-- 表格弹出框区   end -->	   
+	    		
+	    		 		
+	    		
+	    		
+	    	<!-- </div> -->
+	    
+	 
+	    </div>
+	    <!-- 右边数据操作区 end -->
+	    
+	  </div>
+	  <!-- 菜单栏与数据操作区 end -->
+	</div>
+   <!-- 页面主布局 end --> 
+    
+
+  </body>
+</html>

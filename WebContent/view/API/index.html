@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>wolfAPI</title>
+<link rel="stylesheet" href="index.css" />
+<script type="text/javascript" src="jquery-1.8.3.js"></script>
+<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+<div>wolfAPI</div>
+<div class="api_left">
+	<p>基础配置</p>
+	<!-- 数据操作基本配置 -->
+	<div>
+		<a onclick="showView('setings')" href="#">setings:</a>{
+		   <ul class="ul1">
+		      <li><a onclick="showView('queryArea')" href="#queryArea">queryArea</a>:{...}</li>
+		      <li><a href="#fnArea">fnArea</a>:{...}</li>
+		      <li><a href="#dataArea">dataArea</a>:{...}</li>
+		      <li><a href="#pageArea">pageArea</a>:{...}</li>
+		      <li></li>
+		   </ul>
+		}
+	</div>
+	
+	<!-- 查询区域配置 -->
+	<div>
+		<a onclick="showView('queryArea')" href="#" target="queryArea">queryArea</a>:{
+		  <ul class="ul2">
+		      <li><a href="#queryCondition" >queryCondition</a>:[...]</li>
+		      <li><a href="#queryButton" target="queryButton">queryButton</a>:[...]</li>
+		  </ul>
+		}
+	</div>
+	
+	<!-- 查询条件配置 -->
+	<div>
+		<a onclick="showView('queryCondition')" href="#" target="queryCondition">queryCondition</a>:{
+		  <ul class="ul3">
+		      <li><a href="#type" >type</a>:""</li>
+		      <li><a href="#id" >id</a>:""</li>
+		  </ul>
+		}
+	</div>
+	
+</div>
+
+<div class="api_right">
+</div>
+
+<div class="antion">
+	<div id="setings">
+		<pre>
+		setings 
+		名称：配置对象
+		功能：针对一组数据增删改查通用处理功能
+		说明：wolf基于该对象配置，最基本的对象	
+	    </pre>
+	</div>
+	<div id="queryArea">
+		<pre>
+		queryArea 
+		名称：查询条件配置
+		功能：针对一组数据查询条件的组合配置
+		说明：用于配置查询条件
+	    </pre>
+	</div>
+</div>
+
+</body>
+</html>
