@@ -63,7 +63,7 @@
 		
 	}
 	
-	
+	//调用
 	var car = new K(new M(new N(new CarShopImpl())));
 	alert(car.getPrice());
 	car.assemble();
